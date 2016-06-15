@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <script>
+ var a = 25,
+    b = 26,
+    c = 24;
+if (a > b && a > c) {
+  a = a * 1000;
+  if (b > c) {
+    b = b * 100;
+  } else {
+    c = c * 100;
+  }
+}
+  	if (b>a && b>c){
+		b=b*1000;
+		if (a>c){
+			a=a*100;
+		} else {
+			c=c*100
+		}
+  	}
+  	if (c>a && c>b){
+		c=c*1000;
+		if (a>b){
+			a=a*100;
+		} else {
+			b=b*100
+		}
+  	}
+console.log ('a=' + a + ' b=' + b + ' c=' + c);
+</script>
+</body>
+
+</html>
